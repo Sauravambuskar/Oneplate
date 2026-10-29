@@ -5,7 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { organizationSchema } from "./organization-schema";
 
 export const metadata = {
-  metadataBase: new URL("https://platehopefoundation.org"),
+  metadataBase: new URL("https://platehope.in"),
   title: {
     default: "PlateHope Foundation | Towards a Better Tomorrow",
     template: "%s | PlateHope Foundation"
@@ -35,7 +35,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://platehopefoundation.org",
+    url: "https://platehope.in",
     siteName: "PlateHope Foundation",
     title: "PlateHope Foundation | Towards a Better Tomorrow",
     description: "Education, food service and hope for every child in Gurugram, Haryana.",
@@ -70,7 +70,7 @@ export const metadata = {
     yandex: "your-yandex-verification-code",
   },
   alternates: {
-    canonical: "https://platehopefoundation.org",
+    canonical: "https://platehope.in",
   },
 };
 

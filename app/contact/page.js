@@ -8,12 +8,12 @@ export const metadata = {
   description: "Contact PlateHope Foundation in Bhondsi, Gurugram, Haryana. Call +91 97738 85463 or email foundationplatehope@gmail.com for inquiries about volunteering, partnerships and support.",
   keywords: ["contact PlateHope", "NGO Gurugram contact", "volunteer inquiry", "donate inquiry", "Bhondsi Gurugram", "Haryana NGO contact"],
   alternates: {
-    canonical: "https://platehopefoundation.org/contact",
+    canonical: "https://platehope.in/contact",
   },
   openGraph: {
     title: "Contact | PlateHope Foundation",
     description: "Contact PlateHope Foundation in Bhondsi, Gurugram, Haryana. Reach us for inquiries about volunteering, partnerships and support.",
-    url: "https://platehopefoundation.org/contact",
+    url: "https://platehope.in/contact",
   },
 };
 

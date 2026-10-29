@@ -9,12 +9,12 @@ export const metadata = {
   description: "Learn about PlateHope Foundation, a Section 8 non-profit organization from Gurugram, Haryana. Discover our purpose, values, mission and MCA registration details.",
   keywords: ["PlateHope Foundation", "NGO Gurugram", "Section 8 company", "non-profit Haryana", "child welfare organization"],
   alternates: {
-    canonical: "https://platehopefoundation.org/about",
+    canonical: "https://platehope.in/about",
   },
   openGraph: {
     title: "About Us | PlateHope Foundation",
     description: "Learn about PlateHope Foundation, a Section 8 non-profit organization from Gurugram, Haryana. Discover our purpose, values and mission.",
-    url: "https://platehopefoundation.org/about",
+    url: "https://platehope.in/about",
   },
 };
 

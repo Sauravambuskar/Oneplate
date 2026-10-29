@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://platehopefoundation.org';
+  const baseUrl = 'https://platehope.in';
   
   return [
     {
