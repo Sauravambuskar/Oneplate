@@ -6,7 +6,16 @@ import CallToAction from "@/components/CallToAction";
 
 export const metadata = {
   title: "Our Work",
-  description: "Explore PlateHope Foundation's focus on education, nourishment and community opportunity."
+  description: "Explore PlateHope Foundation's focus on education support, food service and community development opportunities for children in Gurugram, Haryana.",
+  keywords: ["education programs", "food service NGO", "child education", "community development", "skill building", "meal support Gurugram"],
+  alternates: {
+    canonical: "https://platehopefoundation.org/our-work",
+  },
+  openGraph: {
+    title: "Our Work | PlateHope Foundation",
+    description: "Explore PlateHope Foundation's focus on education support, food service and community development opportunities for children in Gurugram, Haryana.",
+    url: "https://platehopefoundation.org/our-work",
+  },
 };
 
 const programmes = [

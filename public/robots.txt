@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://platehopefoundation.org/sitemap.xml
+
+# Disallow admin or private paths if any
+User-agent: *
+Disallow: /api/

@@ -6,7 +6,16 @@ import CallToAction from "@/components/CallToAction";
 
 export const metadata = {
   title: "About Us",
-  description: "Learn about PlateHope Foundation, our purpose, values and registration."
+  description: "Learn about PlateHope Foundation, a Section 8 non-profit organization from Gurugram, Haryana. Discover our purpose, values, mission and MCA registration details.",
+  keywords: ["PlateHope Foundation", "NGO Gurugram", "Section 8 company", "non-profit Haryana", "child welfare organization"],
+  alternates: {
+    canonical: "https://platehopefoundation.org/about",
+  },
+  openGraph: {
+    title: "About Us | PlateHope Foundation",
+    description: "Learn about PlateHope Foundation, a Section 8 non-profit organization from Gurugram, Haryana. Discover our purpose, values and mission.",
+    url: "https://platehopefoundation.org/about",
+  },
 };
 
 export default function AboutPage() {

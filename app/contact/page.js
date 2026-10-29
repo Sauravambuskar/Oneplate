@@ -5,7 +5,16 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
   title: "Contact",
-  description: "Contact PlateHope Foundation in Bhondsi, Gurugram, Haryana."
+  description: "Contact PlateHope Foundation in Bhondsi, Gurugram, Haryana. Call +91 97738 85463 or email foundationplatehope@gmail.com for inquiries about volunteering, partnerships and support.",
+  keywords: ["contact PlateHope", "NGO Gurugram contact", "volunteer inquiry", "donate inquiry", "Bhondsi Gurugram", "Haryana NGO contact"],
+  alternates: {
+    canonical: "https://platehopefoundation.org/contact",
+  },
+  openGraph: {
+    title: "Contact | PlateHope Foundation",
+    description: "Contact PlateHope Foundation in Bhondsi, Gurugram, Haryana. Reach us for inquiries about volunteering, partnerships and support.",
+    url: "https://platehopefoundation.org/contact",
+  },
 };
 
 export default function ContactPage() {
