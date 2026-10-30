@@ -9,12 +9,12 @@ export const metadata = {
   description: "Volunteer, partner or support PlateHope Foundation's work for children and communities in Gurugram. Join us in making a difference through education, food service and community programs.",
   keywords: ["volunteer Gurugram", "NGO volunteer", "donate to NGO", "partner with NGO", "support education", "charity work Haryana"],
   alternates: {
-    canonical: "https://platehope.in/get-involved",
+    canonical: "https://www.platehope.in/get-involved",
   },
   openGraph: {
     title: "Get Involved | PlateHope Foundation",
     description: "Volunteer, partner or support PlateHope Foundation's work for children and communities in Gurugram. Join us in making a difference.",
-    url: "https://platehope.in/get-involved",
+    url: "https://www.platehope.in/get-involved",
   },
 };
 

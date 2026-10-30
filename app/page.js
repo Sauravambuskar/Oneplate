@@ -9,12 +9,12 @@ export const metadata = {
   title: "PlateHope Foundation | Towards a Better Tomorrow",
   description: "PlateHope Foundation is a Gurugram-based NGO supporting education, food service and brighter opportunities for children and communities in Haryana, India.",
   alternates: {
-    canonical: "https://platehope.in",
+    canonical: "https://www.platehope.in",
   },
   openGraph: {
     title: "PlateHope Foundation | Towards a Better Tomorrow",
     description: "PlateHope Foundation is a Gurugram-based NGO supporting education, food service and brighter opportunities for children and communities in Haryana, India.",
-    url: "https://platehope.in",
+    url: "https://www.platehope.in",
   },
 };
 

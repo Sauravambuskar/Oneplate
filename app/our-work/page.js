@@ -9,12 +9,12 @@ export const metadata = {
   description: "Explore PlateHope Foundation's focus on education support, food service and community development opportunities for children in Gurugram, Haryana.",
   keywords: ["education programs", "food service NGO", "child education", "community development", "skill building", "meal support Gurugram"],
   alternates: {
-    canonical: "https://platehope.in/our-work",
+    canonical: "https://www.platehope.in/our-work",
   },
   openGraph: {
     title: "Our Work | PlateHope Foundation",
     description: "Explore PlateHope Foundation's focus on education support, food service and community development opportunities for children in Gurugram, Haryana.",
-    url: "https://platehope.in/our-work",
+    url: "https://www.platehope.in/our-work",
   },
 };
 
