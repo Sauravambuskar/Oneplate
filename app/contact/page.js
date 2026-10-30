@@ -2,6 +2,8 @@ import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, webPageSchema } from "../page-schema";
 
 export const metadata = {
   title: "Contact",
@@ -20,6 +22,16 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
+      <JsonLd data={webPageSchema({
+        name: "Contact | PlateHope Foundation",
+        description: "Contact PlateHope Foundation in Bhondsi, Gurugram, Haryana for volunteering, partnership and support enquiries.",
+        path: "/contact",
+        type: "ContactPage",
+      })} />
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", path: "" },
+        { name: "Contact", path: "/contact" },
+      ])} />
       <PageHero
         eyebrow="Contact us"
         title="Let us start with a conversation."

@@ -3,6 +3,8 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 import CallToAction from "@/components/CallToAction";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, webPageSchema } from "../page-schema";
 
 export const metadata = {
   title: "Our Work",
@@ -48,6 +50,15 @@ const programmes = [
 export default function OurWorkPage() {
   return (
     <>
+      <JsonLd data={webPageSchema({
+        name: "Our Work | PlateHope Foundation",
+        description: "Explore PlateHope Foundation's focus on education support, food service and community development opportunities for children in Gurugram, Haryana.",
+        path: "/our-work",
+      })} />
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", path: "" },
+        { name: "Our Work", path: "/our-work" },
+      ])} />
       <PageHero
         eyebrow="Our work"
         title="Three connected needs. One hopeful direction."

@@ -1,13 +1,23 @@
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "NGO",
+  "@id": "https://www.platehope.in/#organization",
   "name": "PlateHope Foundation",
+  "legalName": "PlateHope Foundation",
   "alternateName": "PlateHope",
   "url": "https://www.platehope.in",
   "logo": "https://www.platehope.in/images/platehope-logo.jpg",
+  "image": "https://www.platehope.in/images/platehope-logo.jpg",
   "description": "PlateHope Foundation supports education, food service and brighter opportunities for children and communities in Gurugram, Haryana.",
   "email": "foundationplatehope@gmail.com",
   "telephone": "+919773885463",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919773885463",
+    "email": "foundationplatehope@gmail.com",
+    "contactType": "support enquiries",
+    "areaServed": "IN"
+  },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "House No. 20, Gali No. 2, Block-D, Mohan Nagar, near Maruti Kunj Road, Bhondsi",
@@ -21,10 +31,6 @@ export const organizationSchema = {
     "name": "Gurugram, Haryana, India"
   },
   "foundingDate": "2026-10-23",
-  "founder": {
-    "@type": "Organization",
-    "name": "PlateHope Foundation"
-  },
   "sameAs": [
     "https://www.instagram.com/officialplatehope_005"
   ],
@@ -35,10 +41,6 @@ export const organizationSchema = {
     "Child Welfare",
     "NGO Services"
   ],
-  "memberOf": {
-    "@type": "Organization",
-    "name": "Ministry of Corporate Affairs, India"
-  },
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "CIN",

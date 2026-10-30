@@ -4,6 +4,8 @@ import HomeHero from "@/components/HomeHero";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 import CallToAction from "@/components/CallToAction";
+import JsonLd from "@/components/JsonLd";
+import { websiteSchema, webPageSchema } from "./page-schema";
 
 export const metadata = {
   title: "PlateHope Foundation | Towards a Better Tomorrow",
@@ -21,6 +23,12 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
+      <JsonLd data={websiteSchema} />
+      <JsonLd data={webPageSchema({
+        name: "PlateHope Foundation | Towards a Better Tomorrow",
+        description: "PlateHope Foundation is a Gurugram-based NGO supporting education, food service and brighter opportunities for children and communities in Haryana, India.",
+        path: "",
+      })} />
       <HomeHero />
 
       <section className="intro-section section-shell section-pad">

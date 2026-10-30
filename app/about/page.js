@@ -3,6 +3,8 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 import CallToAction from "@/components/CallToAction";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, webPageSchema } from "../page-schema";
 
 export const metadata = {
   title: "About Us",
@@ -21,6 +23,15 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
+      <JsonLd data={webPageSchema({
+        name: "About Us | PlateHope Foundation",
+        description: "Learn about PlateHope Foundation, a Section 8 non-profit organization from Gurugram, Haryana.",
+        path: "/about",
+      })} />
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", path: "" },
+        { name: "About Us", path: "/about" },
+      ])} />
       <PageHero
         eyebrow="Who we are"
         title="Built on care. Focused on possibility."

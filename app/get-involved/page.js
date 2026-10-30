@@ -3,6 +3,8 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, webPageSchema } from "../page-schema";
 
 export const metadata = {
   title: "Get Involved",
@@ -45,6 +47,15 @@ const ways = [
 export default function GetInvolvedPage() {
   return (
     <>
+      <JsonLd data={webPageSchema({
+        name: "Get Involved | PlateHope Foundation",
+        description: "Volunteer, partner or support PlateHope Foundation's work for children and communities in Gurugram.",
+        path: "/get-involved",
+      })} />
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", path: "" },
+        { name: "Get Involved", path: "/get-involved" },
+      ])} />
       <PageHero
         eyebrow="Get involved"
         title="There is more than one way to make a difference."
